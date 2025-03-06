@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #6a0dad;
+    background-color: #9d4dd6a9;
     font-family: Arial, sans-serif;
 }
 
@@ -29,7 +29,20 @@ body {
 }
 
 .input-box {
-    margin-bottom: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-container i {
+    left: 10px;
+    font-size: 15px;
+    color: #560094a9;
 }
 
 .input-box label {
