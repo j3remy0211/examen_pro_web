@@ -24,6 +24,29 @@ body {
 
 .login-box h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #333333;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot {
+    display: block;
+    margin-bottom: 15px;
+    color: #6a0dad;
+    text-decoration: none;
 }
 
